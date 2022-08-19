@@ -1,0 +1,40 @@
+body {
+    background-image: url(/img/1803626_resize_1500_840.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.semaforo {
+    width: 140px;
+    height: 400px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+    margin: 0% auto;
+
+}
+
+.semaforo div{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 100%;
+    background: gray;
+}
+
+.semaforo .pare{
+    background-color: red;
+    opacity: 0.3;
+}
+
+.semaforo .atenção{
+    background-color: rgb(240, 210, 16);
+    opacity: 1.5;
+}
+
+.semaforo .siga{
+    background-color: rgb(18, 235, 18);
+    opacity: 0.2;
+}
